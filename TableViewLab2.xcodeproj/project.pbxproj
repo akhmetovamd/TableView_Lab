@@ -13,8 +13,6 @@
 		71480BE425199AC20079A146 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71480BE225199AC20079A146 /* Main.storyboard */; };
 		71480BE625199AC30079A146 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71480BE525199AC30079A146 /* Assets.xcassets */; };
 		71480BE925199AC30079A146 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71480BE725199AC30079A146 /* LaunchScreen.storyboard */; };
-		71480BF425199AC30079A146 /* TableViewLab2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71480BF325199AC30079A146 /* TableViewLab2Tests.swift */; };
-		71480BFF25199AC30079A146 /* TableViewLab2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71480BFE25199AC30079A146 /* TableViewLab2UITests.swift */; };
 		71480C102519A0F20079A146 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71480C0F2519A0F20079A146 /* TableViewCell.swift */; };
 		71480C1D2519AE300079A146 /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71480C1C2519AE300079A146 /* DescriptionViewController.swift */; };
 /* End PBXBuildFile section */
@@ -37,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		71480BD925199AC20079A146 /* TableViewLab2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewLab2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71480BD925199AC20079A146 /* TableViewLab2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = TableViewLab2.app; path = "/Users/akhmetovamd/Desktop/iitu/ios/TableViewLab/build/Debug-iphoneos/TableViewLab2.app"; sourceTree = "<absolute>"; };
 		71480BDC25199AC20079A146 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71480BDE25199AC20079A146 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		71480BE025199AC20079A146 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,12 +43,8 @@
 		71480BE525199AC30079A146 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71480BE825199AC30079A146 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71480BEA25199AC30079A146 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		71480BEF25199AC30079A146 /* TableViewLab2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewLab2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		71480BF325199AC30079A146 /* TableViewLab2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewLab2Tests.swift; sourceTree = "<group>"; };
-		71480BF525199AC30079A146 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		71480BFA25199AC30079A146 /* TableViewLab2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewLab2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		71480BFE25199AC30079A146 /* TableViewLab2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewLab2UITests.swift; sourceTree = "<group>"; };
-		71480C0025199AC30079A146 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71480BEF25199AC30079A146 /* TableViewLab2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TableViewLab2Tests.xctest; path = "/Users/akhmetovamd/Desktop/iitu/ios/TableViewLab/build/Debug-iphoneos/TableViewLab2Tests.xctest"; sourceTree = "<absolute>"; };
+		71480BFA25199AC30079A146 /* TableViewLab2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TableViewLab2UITests.xctest; path = "/Users/akhmetovamd/Desktop/iitu/ios/TableViewLab/build/Debug-iphoneos/TableViewLab2UITests.xctest"; sourceTree = "<absolute>"; };
 		71480C0F2519A0F20079A146 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		71480C1C2519AE300079A146 /* DescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,20 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				71480BDB25199AC20079A146 /* TableViewLab2 */,
-				71480BF225199AC30079A146 /* TableViewLab2Tests */,
-				71480BFD25199AC30079A146 /* TableViewLab2UITests */,
-				71480BDA25199AC20079A146 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		71480BDA25199AC20079A146 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				71480BD925199AC20079A146 /* TableViewLab2.app */,
-				71480BEF25199AC30079A146 /* TableViewLab2Tests.xctest */,
-				71480BFA25199AC30079A146 /* TableViewLab2UITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		71480BDB25199AC20079A146 /* TableViewLab2 */ = {
@@ -114,24 +95,6 @@
 				71480BEA25199AC30079A146 /* Info.plist */,
 			);
 			path = TableViewLab2;
-			sourceTree = "<group>";
-		};
-		71480BF225199AC30079A146 /* TableViewLab2Tests */ = {
-			isa = PBXGroup;
-			children = (
-				71480BF325199AC30079A146 /* TableViewLab2Tests.swift */,
-				71480BF525199AC30079A146 /* Info.plist */,
-			);
-			path = TableViewLab2Tests;
-			sourceTree = "<group>";
-		};
-		71480BFD25199AC30079A146 /* TableViewLab2UITests */ = {
-			isa = PBXGroup;
-			children = (
-				71480BFE25199AC30079A146 /* TableViewLab2UITests.swift */,
-				71480C0025199AC30079A146 /* Info.plist */,
-			);
-			path = TableViewLab2UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,7 +184,7 @@
 				Base,
 			);
 			mainGroup = 71480BD025199AC20079A146;
-			productRefGroup = 71480BDA25199AC20079A146 /* Products */;
+			productRefGroup = 71480BD025199AC20079A146;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -276,7 +239,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71480BF425199AC30079A146 /* TableViewLab2Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71480BFF25199AC30079A146 /* TableViewLab2UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
