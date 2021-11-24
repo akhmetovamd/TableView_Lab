@@ -15,6 +15,8 @@
 		71480BE925199AC30079A146 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71480BE725199AC30079A146 /* LaunchScreen.storyboard */; };
 		71480BF425199AC30079A146 /* TableViewLab2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71480BF325199AC30079A146 /* TableViewLab2Tests.swift */; };
 		71480BFF25199AC30079A146 /* TableViewLab2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71480BFE25199AC30079A146 /* TableViewLab2UITests.swift */; };
+		71480C102519A0F20079A146 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71480C0F2519A0F20079A146 /* TableViewCell.swift */; };
+		71480C1D2519AE300079A146 /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71480C1C2519AE300079A146 /* DescriptionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		71480BFA25199AC30079A146 /* TableViewLab2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewLab2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71480BFE25199AC30079A146 /* TableViewLab2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewLab2UITests.swift; sourceTree = "<group>"; };
 		71480C0025199AC30079A146 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71480C0F2519A0F20079A146 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		71480C1C2519AE300079A146 /* DescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +105,10 @@
 			children = (
 				71480BDC25199AC20079A146 /* AppDelegate.swift */,
 				71480BDE25199AC20079A146 /* SceneDelegate.swift */,
+				71480C1C2519AE300079A146 /* DescriptionViewController.swift */,
 				71480BE025199AC20079A146 /* ViewController.swift */,
 				71480BE225199AC20079A146 /* Main.storyboard */,
+				71480C0F2519A0F20079A146 /* TableViewCell.swift */,
 				71480BE525199AC30079A146 /* Assets.xcassets */,
 				71480BE725199AC30079A146 /* LaunchScreen.storyboard */,
 				71480BEA25199AC30079A146 /* Info.plist */,
@@ -259,7 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				71480BE125199AC20079A146 /* ViewController.swift in Sources */,
+				71480C102519A0F20079A146 /* TableViewCell.swift in Sources */,
 				71480BDD25199AC20079A146 /* AppDelegate.swift in Sources */,
+				71480C1D2519AE300079A146 /* DescriptionViewController.swift in Sources */,
 				71480BDF25199AC20079A146 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

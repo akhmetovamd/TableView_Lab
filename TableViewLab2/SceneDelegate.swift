@@ -1,9 +1,3 @@
-//
-//  SceneDelegate.swift
-//  TableViewLab2
-//
-//  Created by Darkhan Zhapparov on 9/22/20.
-//
 
 import UIKit
 
